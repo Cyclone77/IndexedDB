@@ -49,5 +49,7 @@ export class AppComponent implements OnInit {
 
       const objectStore = db.createObjectStore('person', { autoIncrement: true });
     };
+
+    // 测试
   }
 }
